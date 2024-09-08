@@ -1,0 +1,114 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.Menu-bar
+{
+ background-color: white;
+ text-align: center;
+}
+
+.Menu-bar ul
+{
+ display: inline-flex;
+ list-style: none;
+ color: black;
+ width: 70%;
+}
+
+.Menu-bar ul li
+{
+    width: 200px;
+    margin: 15px;
+    padding: 30px;
+}
+
+.Menu-bar ul li a
+{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 15px 30px;
+    display: block;
+    margin: auto;
+}
+
+body
+{
+    background-image: url(https://static.wixstatic.com/media/02fdb7_42300655c44a473eba48960b121cc9f6~mv2.jpg/v1/fill/w_1857,h_670,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/02fdb7_42300655c44a473eba48960b121cc9f6~mv2.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: auto;
+}
+
+.Menu-bar ul li:hover
+{
+    background-color: white;
+}
+
+.Menu-bar ul li a:hover
+{
+    color: orange;
+}
+
+.sub-menu-1
+{
+    display: none;
+}
+
+.Menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background-color: transparent;
+    margin-top: 20px;
+    margin-left: -15px;
+}
+
+.Menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+
+.Menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: white;
+    border-radius: 0;
+    text-align: left;
+}
+
+.Menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    color: orange;
+}
+
+.logo
+{
+    width: 100px;
+    height: 80px;
+    margin: 0;
+}
+
+.Text
+{
+    color: white;
+    font-size: 70px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.Text1
+{
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 50px;
+}

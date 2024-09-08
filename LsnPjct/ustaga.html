@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="ustaga.css">
+  <script src="ustaga.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-3">
+       
+        <div id="board">
+            <h2 id="title">Блок бодох</h2>
+            <input id="input" placeholder="Байшингийн уртаа оруулна уу" id="w" required><br><br>
+            <input id="input" type="number" placeholder="Байшингийн өргөнөө оруулна уу" id="wi" required><br><br>
+            <input id="input" type="number" placeholder="Байшингийн өндөрөө оруулна уу" id="h" required><br><br>
+            <p id='Rslt'>Нийт орох ширхэг</p>
+            <button id="btn" type="submit" onclick="document.getElementById('Rslt').innerHTML = block()">Бодох</button>
+            
+        </div> 
+    </div>
+    
+    <div class="col-sm-5"></div>
+  </div>
+</div>
